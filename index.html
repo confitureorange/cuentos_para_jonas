@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuentos para Jonás</title>
+    <!-- SE AGREGA EL ESTILO DE LA TABLA -->
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- PARTE 1: LO GENERAL-->
+    <h1>CUENTOS PARA JONÁS</h1>
+    <h2>CUENTOS CORTOS INFANTILES PARA DORMIR</h2>
+    <p>Porque todos los mayores han sido niños, aunque muy pocos lo recuerdan</p>
+    <p>Nuestra recomendación <br> para esta noche <span>
+    <a target="_blanck" href="http://www.cuentosinfantilesadormir.com/cuento-elreyleon.html#:~:text=La%20historia%20del%20Rey%20de,a%20Simba%2C%20un%20precioso%20leoncito."">El rey León</a></span></p>
+    <img src="img/foto1.jpg" width="700"/>
+    
+    <!-- PARTE 2: LISTAS-->
+    <h2>ÍNDICE DE CUENTOS</h2>
+    <ol>
+        <li> El rey león</li>
+        <li> Peter pan</li>
+        <li> Dani y Evan</li>
+        <li> 101 Dalmatas</li>
+        <ul>
+            <li style="list-style-type: lower-greek;"> Parte 1</li>
+            <li style="list-style-type: lower-greek;"> Parte 2</li>
+            </ul>
+        <li> Spirit</li>
+        <li> Blippi</li>
+        <li> Toy story</li>
+        <li> El principito</li>
+    <li><h4> Cuentos de Argentina para el mundo</h4></li>
+    <ul>
+        <li style="list-style-type: lower-greek;"> El grillo y el tigre</li>
+        <li style="list-style-type: lower-greek;"> Carlitos y sus amigos van a la cancha</li>
+        <li style="list-style-type: lower-greek;"> Pippo: El perro aventurero</li>
+        <li style="list-style-type: lower-greek;"> Dinosaurios de la Patagonia</li>
+    </ul>
+</ol>
+    <!-- PARTE 3: TABLAS-->
+    <h2> PLANES DE SUSCRIPCIÓN</h2>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th> PLAN </th>
+                <th>PRECIO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bronce</td>
+                <td>$ 89</td>
+            </tr>
+            <tr>
+                <td>Plata</td>
+                <td>$100</td>
+            </tr>
+            <tr> 
+                <td>Oro</td>
+                <td>$125</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>1 USD = 200 ARG</td>
+        </tfoot>
+    </table>
+    <!-- PARTE 4: FORMULARIOS-->
+    <h2>FORMULARIO DE CONTACTO</h2>
+    <form>
+        <label for="nombre">Nombre&nbsp;  </label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre">
+        <br><br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Escriba su apellido"/>
+        <br><br>
+        <input type="checkbox" name="Idiomas"/>Español 
+        <input type="checkbox" name="Idiomas"/>Inglés
+        <input type="checkbox" name="Idiomas"/>Francés
+        <input type="checkbox" name="Idiomas"/>Alemán
+        <br><br>
+        <input type="radio" name="Plan"/>Bronce
+        <input type="radio" name="Plan"/>Plata
+        <input type="radio" name="Plan"/>Oro
+        <input type="radio" name="Plan"/>Otro
+        <br><br>
+         <select multiple=" multiple">
+             <option value="ARGENTINA"> 
+                 ARGENTINA
+             </option>
+             <option value="CHILE"> 
+                 CHILE
+             </option>
+             <option value="PERÚ"> 
+                 PERÚ
+             </option>
+             <option value="URUGUAY"> 
+                URUGUAY
+            </option>
+            <option value="COLOMBIA"> 
+                COLOMBIA
+            </option>
+            <option value="VENEZUELA"> 
+                VENEZUELA
+            </option>
+         </select>
+         <br><br>
+        <label for="comentario">Comentario</label>
+        <textarea cols="18" raws="5" id="comentario" name="comentario" placeholder="Escriba su comentario"></textarea>
+        <br><br>
+        <form enctype="multipart/form-data">
+        <input type="file"/>
+        </form>
+        <br><br>
+        <input type="submit"/>
+        <button type="reset">Rehacer</button>
+        <!-- <button type="submit">Tipo submit</button>
+        <button type="menu" >Tipo menu </button> -->
+        <br><br> 
+        <button type="button"> <img src ="img/foto1.jpg" width="25"/>Tipo boton</button>
+    </form>
+</body>
+</html>
